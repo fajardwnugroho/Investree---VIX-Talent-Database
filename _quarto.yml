@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Investree - VIX Talent Database"
+  navbar:
+    background: primary
+    left:
+      - text: Dashboard
+        menu: 
+          - href: be.qmd
+            text: Backend Developer
+          - href: fs.qmd
+            text: Fullstack Developer
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
